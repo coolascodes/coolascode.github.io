@@ -794,6 +794,18 @@ footer span a:hover {
         width: 150px;
     }
 
+    .toggle {
+        margin: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .toggle div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .scroll-up-btn {
         right: 15px;
         bottom: 15px;
@@ -817,7 +829,8 @@ body.dark {
 }
 
 .toggle {
-    padding-left: 20px;
+    position: absolute;
+    right: 20px;
 }
 
 .checkbox-label {
