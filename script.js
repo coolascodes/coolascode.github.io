@@ -90,7 +90,7 @@ $(document).ready(function () {
                     }
                 }
             } catch (error) {
-                // console.log("Failed to access CSS rules:", error);
+                // console.log("Failed to access CSS rules:", error); //Unnecessary Warning
             }
         }
 
